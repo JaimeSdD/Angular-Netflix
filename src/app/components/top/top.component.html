@@ -1,0 +1,9 @@
+<h3>Top 5</h3>
+<div class="top">
+  <ng-container *ngFor="let top of tops">
+    <div class="top-container">
+      <img [src]="top.number.src" />
+      <img [src]="top.film.src" />
+    </div>
+  </ng-container>
+</div>

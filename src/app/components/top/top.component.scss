@@ -1,0 +1,11 @@
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .top-container{
+        display: flex;
+    }
+    img{
+        width: 120px;
+    }
+}

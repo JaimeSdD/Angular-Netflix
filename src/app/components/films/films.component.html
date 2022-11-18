@@ -1,0 +1,8 @@
+<h3>{{ filmsSection.section }}</h3>
+<div class="section">
+<ng-container *ngFor="let film of filmsSection.films" >
+    <div class="image-container" (click)="sendTitle(film.title)">
+      <img [src]="film.image.src" />
+    </div>
+  </ng-container>
+</div>

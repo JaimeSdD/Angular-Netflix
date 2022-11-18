@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .image-container{
+        display: flex;
+        width: 120px;
+        img{
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .links{
+        display: flex;
+        font-size: 15px;
+        padding-right: 10px;
+        gap: 30px;
+    }
+}
